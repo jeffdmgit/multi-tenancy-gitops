@@ -1,13 +1,13 @@
 apiVersion: v1
 data:
-  branch: <branch>
+  branch: demo-mq-v2-jeffdmgit
   host: github.com
-  org: <github-org>
-  owner: <github-id>
+  org: jeffdmgit
+  owner: jeffdmgit
   parentdir: .
   protocol: https
   repo: multi-tenancy-gitops
-  url: https://github.com/<github-org>/multi-tenancy-gitops.git
+  url: https://github.com/jeffdmgit/multi-tenancy-gitops.git
 kind: ConfigMap
 metadata:
   labels:

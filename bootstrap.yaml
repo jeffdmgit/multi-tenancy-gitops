@@ -6,7 +6,7 @@ spec:
   destination:
     namespace: jt-gitops
     server: https://kubernetes.default.svc
-  project: jt-gitops
+  project: default
   source:
     path: 0-bootstrap/argocd/active
     repoURL: https://github.com/jeffdmgit/multi-tenancy-gitops.git
